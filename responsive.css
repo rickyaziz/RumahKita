@@ -1,0 +1,164 @@
+@media (max-width: 1368px) {
+  html {
+    font-size: 75%;
+  }
+
+  #image-whatsapp img {
+    max-width: 80%;
+  }
+
+  #image-fb-ig img {
+    max-width: 80%;
+  }
+
+  #image-gmail img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+
+  .main-container {
+    margin-top: 70px;
+  }
+
+  .layout-header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .layout-header h1 {
+    font-size: 2rem;
+  }
+
+  .layout-header h2 {
+    font-size: 1.1rem;
+  }
+
+  .layout-rumah img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .visit-button {
+    margin: 1.7rem 0;
+  }
+
+  .visit-button button {
+    padding: 1.1rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .visit-button a {
+    padding: 12px 32px;
+  }
+
+  .layout-rumah {
+    padding: 0;
+  }
+
+  #navbar-list {
+    display: none;
+  }
+
+  #navbar-menu img {
+    display: inline-block;
+    max-width: 65%;
+  }
+
+  .container-image2 img {
+    max-width: 65%;
+  }
+
+  #layout-2 li {
+    padding: 0 12px;
+  }
+  #image-whatsapp img {
+    max-width: 65%;
+  }
+
+  #image-fb-ig img {
+    max-width: 65%;
+  }
+
+  #image-gmail img {
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 52.5%;
+  }
+
+  .navbar img {
+    display: inline-block;
+    max-width: 60%;
+  }
+
+  #navbar-list {
+    display: none;
+  }
+
+  #Syarat {
+    display: none;
+  }
+
+  #SK {
+    display: block;
+  }
+
+  #layout-2 li {
+    padding: 0 4px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+  }
+
+  .layout-rumah {
+    margin: 0;
+  }
+
+  .layout-rumah img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  #image-whatsapp img {
+    max-width: 52.5%;
+  }
+
+  #image-fb-ig img {
+    max-width: 52.5%;
+  }
+
+  #image-gmail img {
+    max-width: 52.5%;
+  }
+
+  .main-container {
+    margin-top: 20%;
+  }
+
+  .header-2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+  }
+
+  .container-image2 img {
+    width: 100%;
+    max-width: 205px;
+  }
+
+  .container-artikel2 {
+    margin: 0;
+  }
+}

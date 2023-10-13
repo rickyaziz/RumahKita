@@ -1,0 +1,128 @@
+:root {
+  --primary: #00f37c;
+  --secondary: #6a9585;
+  --third: #435e5d;
+  --fourth: #184c58;
+  --bg: #19131b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.main-container {
+  min-height: 300vh;
+  margin-top: 100px;
+  color: black;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
+  flex-wrap: 1;
+  height: auto;
+  margin: 1rem;
+  padding: 1.2rem;
+}
+
+.layout-header {
+  padding: 0 2rem;
+}
+
+.layout-header h1 {
+  font-size: 3.5rem;
+}
+
+.layout-header h2 {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 1.5rem 0;
+}
+
+.visit-button {
+  margin: 4rem 12rem;
+}
+
+.visit-button a {
+  color: white;
+  padding: 1.5rem 4rem;
+}
+
+.visit-button button {
+  padding: 1.5rem;
+  background-color: var(--third);
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  box-shadow: 0 0 6px black;
+  transition: 0.4s;
+}
+
+.visit-button button:hover {
+  box-shadow: 0 20px 6px black;
+  transform: translateY(-10px);
+  transition: 0.4s;
+}
+
+.visit-button button:active {
+  transform: translateY(0);
+  box-shadow: 0 10px 6px black;
+}
+
+.layout-rumah img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.layout-rumah {
+  margin: 0 0 0 2rem;
+  padding: 0 2rem;
+}
+
+.container-layout {
+  height: 90vh;
+  margin: 4rem 0;
+  background-image: url(/foto/forest-bg.jpeg);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.header-2 {
+  display: flex;
+  align-items: last baseline;
+  padding: 4rem 4rem 2rem 4rem;
+}
+
+.container-image2 {
+  display: flex;
+  align-items: center;
+}
+
+.container-image2 img {
+  width: 500px;
+  align-items: center;
+}
+
+.container-artikel2 {
+  margin: 0 0 0 4rem;
+}
+
+.layout-artikel2 {
+  margin-left: 2rem;
+}
+
+.layout-artikel2 h1 {
+  font-size: 3.8rem;
+  padding-bottom: 2rem;
+}
+
+.layout-artikel2-p p {
+  text-align: justify;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}

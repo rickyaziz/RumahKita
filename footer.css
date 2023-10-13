@@ -1,0 +1,108 @@
+:root {
+  --primary: #00f37c;
+  --secondary: #6a9585;
+  --third: #435e5d;
+  --fourth: #184c58;
+  --bg: #19131b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.footer-container {
+  height: 30vh;
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container li {
+  list-style: none;
+  display: block;
+}
+
+.footer-container a {
+  color: white;
+}
+
+.footer-container ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px 0;
+  margin: 0 5px;
+}
+
+#layout-1 {
+  text-align: center;
+  margin: 0 4px;
+}
+
+#layout-1 li {
+  padding: 0 16px;
+}
+
+#layout-1 a {
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+
+#layout-1 p {
+  align-items: center;
+}
+
+#SK {
+  display: none;
+}
+
+#layout-1 a:hover {
+  color: var(--fourth);
+  transition: 0.4s;
+}
+
+#layout-1 a::after {
+  content: "";
+  display: block;
+  padding-bottom: 7px;
+  border-bottom: 2px solid var(--fourth);
+  transform: scaleX(0);
+  transition: 0.4s;
+}
+
+#layout-1 a:hover::after {
+  transform: scaleX(0.8);
+}
+
+#layout-2 li {
+  padding: 0 16px;
+}
+
+#image-fb-ig img {
+  width: 24px;
+}
+
+#image-whatsapp img {
+  width: 50px;
+}
+
+#image-gmail img {
+  width: 30px;
+}
+
+#layout-3 small p {
+  margin: 1.2rem 0;
+}
